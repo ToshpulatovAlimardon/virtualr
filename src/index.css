@@ -52,3 +52,9 @@ a {
   width: 80%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 935px) {
+  .container {
+    width: 90%;
+  }
+}
