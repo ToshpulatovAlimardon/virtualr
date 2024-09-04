@@ -1,0 +1,56 @@
+/* Header */
+#header {
+  margin-top: 150px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+/* Header description */
+.header-desc h1 {
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  margin-bottom: 40px;
+}
+
+.header-desc h1 span {
+  background-image: linear-gradient(to right, #f97316, #991b1b);
+  background-clip: text;
+  color: transparent;
+}
+
+.header-desc p {
+  font-size: 18px;
+  line-height: 28px;
+  color: rgb(115, 115, 115);
+  max-width: 80%;
+  margin: 0 auto 40px;
+}
+
+.header-desc .header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-desc .header-btn a {
+  padding: 12px 16px;
+}
+
+/* Header video */
+.header-video {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 90px;
+}
+
+.header-video video {
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid rgb(194, 65, 12);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgb(251, 146, 60) 0px 1px 2px 0px;
+}
